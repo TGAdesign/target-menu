@@ -1,0 +1,32 @@
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  line-height: 2;
+  color: #1f1f1f;
+}
+
+body {
+    overflow-x: hidden;    
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  &[target="_blank"] {
+    padding-right: 25px;
+    background: transparent url('../img/icons/icon-newwindow.svg') no-repeat right top;
+  }
+}
+
+.content {
+  background: url('./assets/images/main-bg.jpg') no-repeat center center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+

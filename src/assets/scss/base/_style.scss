@@ -1,0 +1,41 @@
+.content {
+    color: #fff;
+    
+    > div {
+        padding: 60px 40px;
+        border: 5px solid #fff;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 20%;
+        background-color: rgba(71,71,71,0.4);
+
+        @media only screen and (max-width: 768px) {
+            position: relative;
+            left: 0;
+        }
+
+        @media (max-width:480px) {
+            position: relative;
+            left: 0;
+            padding: 10px;
+        }
+
+        h1 {
+            font-size: 64px;
+            color: inherit;
+            margin-bottom: 60px;
+            font-weight: bold;
+            @media (max-width:480px) {
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+        }
+
+        p{
+    
+        }
+    }
+    
+}

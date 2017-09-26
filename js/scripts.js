@@ -1,2 +1,0 @@
-getElementbyID('£nea');
-wiwowo

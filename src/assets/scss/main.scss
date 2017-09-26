@@ -1,7 +1,12 @@
-.wazap {}
+@import 'base/reset';
+@import 'base/fonts';
+@import 'base/global';
+@import 'base/typography';
+@import 'base/style';
 
-.wazap2 {}
+@import 'global/header';
+@import 'global/footer';
 
-.wazap3 {}
+@import 'target-menu';
 
-.wazap3 {}
+

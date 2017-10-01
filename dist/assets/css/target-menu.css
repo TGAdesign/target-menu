@@ -34,12 +34,15 @@ nav {
     height: 100vh;
     width: 0;
     top: 0;
-    right: 0;
     transition: all 0.5s ease;
     color: #fff;
     background-color: #ff8800;
     transition-delay: 500ms;
     z-index: 100; }
+    nav #menu[data-direction="left"] {
+      right: 0; }
+    nav #menu[data-direction="right"] {
+      left: 0; }
     nav #menu:target {
       display: block;
       width: 100vw;

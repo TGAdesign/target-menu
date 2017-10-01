@@ -1,16 +1,16 @@
 
-<h1>Creative menu / navigation made with :target </h1>
-<p>This is a creative menu made only with css3, no javascript</p>
+# Creative menu / navigation made with :target 
+This is a creative menu made only with css3, no javascript
+Example : [Target Menu](http://tgadesign.ro/github/target-menu/)
+The menu is very easy to install and its compatible with any project, get the style in your project from dist folder
 
-<p> The menu is very easy to install and its compatible with any project, get the style in your project from dist folder</p>
-
-<pre>
+```
 	<link href="dist/assets/css/target-menu.css" rel="stylesheet">
-</pre>
+```
 
-<p> After the CSS is in his place, you just have to add some HTML in the body element </p>
+After the CSS is in his place, you just have to add some HTML in the body element 
 
-<pre>
+```
 	<nav>
         <a href="#menu">Menu</a>
         <div id="menu">
@@ -26,13 +26,12 @@
             </ul>
         </div>
     </nav> <!-- end navigation -->
-</pre>
+```
 
-<h2></h2>
+## Play with source
+If you would like to download the source and play around with it feel free
 
-<p> If you would like to download the source and play around with it feel free </p>
-
-<pre>
+```
 	npm install gulpjs/gulp#4.0 --save-dev
 
 	npm install
@@ -42,6 +41,6 @@
 	npm install browser-sync --save-dev
 
 	gulp
-</pre>
+```
 
-<p>You are ready, have fun!</p>
+You are ready, have fun!

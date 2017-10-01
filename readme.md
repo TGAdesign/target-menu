@@ -1,19 +1,21 @@
 
 # Creative menu / navigation made with :target 
 This is a creative menu made only with css3, no javascript
+
 Example : [Target Menu](http://tgadesign.ro/github/target-menu/)
+
 The menu is very easy to install and its compatible with any project, get the style in your project from dist folder
 
 ```
 	<link href="dist/assets/css/target-menu.css" rel="stylesheet">
 ```
 
-After the CSS is in his place, you just have to add some HTML in the body element 
+After the CSS is in his place, you just have to add some HTML in the body element. 
 
 ```
 	<nav>
         <a href="#menu">Menu</a>
-        <div id="menu">
+        <div id="menu" data-direction="left">
             <p><a href="#closemenu"></a></p>
             <ul>
                 <li><a href="#">Work</a></li>
@@ -26,6 +28,12 @@ After the CSS is in his place, you just have to add some HTML in the body elemen
             </ul>
         </div>
     </nav> <!-- end navigation -->
+```
+
+You can adjust the direction of menu with the 'data-direction' attribute; 
+```	
+	data-direction="left"
+	data-direction="right"
 ```
 
 ## Play with source
